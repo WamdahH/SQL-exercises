@@ -1,0 +1,15 @@
+1.
+SELECT * from city;
+SELECT COUNT(CountryCode) FROM city WHERE CountryCode="USA";
+274
+
+2.
+describe country;
+SELECT LifeExpectancy,  population from country where code= "ARG";
++----------------+------------+
+| LifeExpectancy | population |
++----------------+------------+
+|           75.1 |   37032000 |
++----------------+------------+
+
+
